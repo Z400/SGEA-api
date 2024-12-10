@@ -1,0 +1,77 @@
+package sgea.sistema.sgea.controller;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import jakarta.validation.ConstraintViolationException;
+import sgea.sistema.sgea.model.Cliente;
+import sgea.sistema.sgea.response.ApiResponse;
+import sgea.sistema.sgea.service.ClienteService;
+
+@RestController
+@RequestMapping("/cliente")
+public class ClienteController {
+	
+	@Autowired
+	private ClienteService clienteService;
+	
+ 
+	@PostMapping("/cadastrar")
+	public ResponseEntity<ApiResponse> cadastrarCliente(@RequestBody Cliente cliente){
+		try {
+			 
+				clienteService.cadastrarCliente(cliente);
+				ApiResponse apiResponse = new ApiResponse("Success", "Cliente cadastrado!", cliente);
+				return new ResponseEntity<>(apiResponse, HttpStatus.CREATED);
+			
+			
+		} catch (ConstraintViolationException e) {
+			List<String> errors = e.getConstraintViolations().stream().map(violation -> violation.getMessage()).
+					collect(Collectors.toList());
+			ApiResponse apiResponse = new ApiResponse("Erro", "Erro de validação!", errors);
+			return new ResponseEntity<>(apiResponse, HttpStatus.BAD_REQUEST);
+		} catch (DataIntegrityViolationException e) {
+			 ApiResponse apiResponse = new ApiResponse("Error", "Já existe um CPF com este número cadastrado!");
+		        return new ResponseEntity<>(apiResponse, HttpStatus.BAD_REQUEST);
+		} catch (Exception e) {
+			ApiResponse apiResponse = new ApiResponse("Erro", e.getMessage());
+			return new ResponseEntity<>(apiResponse,HttpStatus.BAD_REQUEST);
+		}
+	}
+	
+	@GetMapping("/listar")
+	public List<Cliente> listarClientes(){
+		return clienteService.listarClientes();
+	}
+	
+	@PutMapping("/atualizar/{cpf}")
+	public ResponseEntity<ApiResponse> atualizarCliente (@PathVariable String cpf, @RequestBody Cliente cliente){
+		try {
+			
+			clienteService.atualizarCliente(cpf, cliente);
+			ApiResponse apiResponse = new ApiResponse("Success","Cliente atualizado!");
+			return new ResponseEntity<>(apiResponse, HttpStatus.CREATED);
+			
+		} catch (Exception e) {
+			
+			ApiResponse apiResponse = new ApiResponse("Error",e.getMessage());
+			return new ResponseEntity<>(apiResponse, HttpStatus.BAD_REQUEST);
+			 
+		}
+		
+	}
+	
+	
+}

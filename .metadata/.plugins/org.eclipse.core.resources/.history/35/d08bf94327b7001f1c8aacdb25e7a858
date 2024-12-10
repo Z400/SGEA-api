@@ -1,0 +1,23 @@
+package sgea.sistema.sgea.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import sgea.sistema.sgea.model.Cliente;
+import sgea.sistema.sgea.repository.ClienteRepository;
+
+@Service
+public class ClienteService {
+	
+	@Autowired
+	public ClienteRepository clienteRepository;
+	
+	public List<Cliente> listarClientes(){
+		List<Cliente> clientes = clienteRepository.findAll();
+		System.out.println(clientes);
+		return clientes;
+	}
+
+}
