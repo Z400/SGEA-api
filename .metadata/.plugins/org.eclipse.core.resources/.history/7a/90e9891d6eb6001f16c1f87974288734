@@ -1,0 +1,19 @@
+package sgea.sistema.sgea.model;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+ 
+
+@Entity
+
+@Table(name = "")
+public class Cliente {
+	
+	private Long id;
+	private String nome;
+	private String cpf;
+	private String datanasicimento;
+	private String telefone;
+	
+
+}

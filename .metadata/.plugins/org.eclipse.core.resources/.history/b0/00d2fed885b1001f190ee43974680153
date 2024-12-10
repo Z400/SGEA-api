@@ -1,0 +1,82 @@
+package sgea.sistema.sgea.controller;
+
+ 
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.security.saml2.Saml2RelyingPartyProperties.AssertingParty.Verification;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import sgea.sistema.sgea.model.Fornecedor;
+import sgea.sistema.sgea.repository.FornecedorRepository;
+import sgea.sistema.sgea.response.ApiResponse;
+import sgea.sistema.sgea.service.FornecedorService;
+ 
+@RestController
+@RequestMapping("/api")
+public class FornecedorController {
+	
+	
+    @Autowired
+    private FornecedorService fornecedorService;
+    
+	@Autowired
+    private FornecedorRepository fornecedorRepository;
+
+    @PostMapping("/cadastrarFornecedor")
+    public ResponseEntity<ApiResponse> cadastrarFornecedor(@RequestBody Fornecedor fornecedor){
+        try {
+            Fornecedor novoFornecedor = fornecedorService.cadastrarFornecedor(fornecedor);
+            ApiResponse apiResponse = new ApiResponse("Success", "Fornecedor cadastrado com sucesso!", novoFornecedor);
+            return new ResponseEntity<>(apiResponse, HttpStatus.CREATED);
+        } catch (Exception e) {
+            ApiResponse apiResponse = new ApiResponse("Error", e.getMessage());
+            return new ResponseEntity<>(apiResponse, HttpStatus.BAD_REQUEST);
+        }
+    }
+     
+    @GetMapping("/listarFornecedores")
+    public List<Fornecedor> listarFornecedores(){
+    	
+    	return fornecedorService.listarFornecedores();
+        	
+    }
+    
+    @PutMapping("/atualizarFornecedor/{cnpj}")
+    public ResponseEntity<ApiResponse> atualizarFornecedor(@PathVariable String cnpj, @RequestBody Fornecedor dadosAtualizados){
+    	
+     try {
+    	 
+    	 fornecedorService.atualizarFornecedor(cnpj, dadosAtualizados);
+    	 ApiResponse apiResponse = new ApiResponse("Succes", "Fornecedor atualizado", dadosAtualizados);
+    	 return new ResponseEntity<ApiResponse>(apiResponse, HttpStatus.CREATED)
+		
+	} catch (Exception e) {
+		// TODO: handle exception
+	}
+    	
+    	
+    }
+    
+    
+    @DeleteMapping("/deletarFornecedor/{cnpj}")
+    public ResponseEntity<String> deletarFornecedor(@PathVariable String cnpj) {
+        try {
+            fornecedorService.deletarFornecedor(cnpj);
+            return ResponseEntity.ok("Fornecedor deletado com sucesso.");
+        } catch (RuntimeException e) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
+        }
+    }
+    
+}

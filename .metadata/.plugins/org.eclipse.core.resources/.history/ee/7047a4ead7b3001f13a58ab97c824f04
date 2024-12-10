@@ -1,0 +1,20 @@
+package sgea.sistema.sgea.repository;
+
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import sgea.sistema.sgea.model.Colaborador;
+
+@Repository 
+public interface ColaboradorRepository extends JpaRepository<Colaborador, String>{
+
+	
+	Optional<Colaborador> findByCpf (String cpf);
+	
+	void deleteByCpf (String cpf);
+	
+	
+	
+}

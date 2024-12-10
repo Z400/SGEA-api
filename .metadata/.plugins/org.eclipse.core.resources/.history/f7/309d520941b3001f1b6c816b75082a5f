@@ -1,0 +1,11 @@
+package sgea.sistema.sgea.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import sgea.sistema.sgea.model.Colaborador;
+
+import sgea.sistema.sgea.model.Colaborador;
+
+public interface ColaboradorRepository extends JpaRepository<Colaborador, String>{
+
+}

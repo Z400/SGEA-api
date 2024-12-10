@@ -1,0 +1,51 @@
+package sgea.sistema.sgea.controller;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+ import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import jakarta.validation.ConstraintViolationException;
+import sgea.sistema.sgea.model.Colaborador;
+import sgea.sistema.sgea.response.ApiResponse;
+import sgea.sistema.sgea.service.ColaboradorService;
+
+@RestController
+@RequestMapping("/api-colaborador")
+public class ColaboradorController {
+	
+	@Autowired
+	private ColaboradorService colaboradorService;
+	
+	@PostMapping("/cadastrar")
+	public ResponseEntity<ApiResponse> cadastrarColaborador(Colaborador colaborador){
+			
+		try {
+			
+			Colaborador novoColaborador = colaboradorService.cadastrarColaborador(colaborador);
+			ApiResponse apiResponse = new ApiResponse("Succes", "Colaborador cadastrado!", novoColaborador);
+			return new ResponseEntity<>(apiResponse, HttpStatus.CREATED);
+		}catch (ConstraintViolationException e) {
+			
+			List<String> erros = e.getConstraintViolations().stream().
+					map(violation -> violation.getMessage()).collect(Collectors.toList());   	
+	        	ApiResponse apiResponse = new ApiResponse("Error", "Erro de validação!", erros);
+	        	return new ResponseEntity<>(apiResponse,HttpStatus.BAD_REQUEST);
+			
+			
+			
+		} catch (Exception e) {
+			
+			ApiResponse apiResponse = new ApiResponse("Erro", e.getMessage());
+			return new ResponseEntity<>(apiResponse,HttpStatus.BAD_REQUEST);
+			
+		}
+		
+	}
+
+}

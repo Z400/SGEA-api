@@ -1,0 +1,205 @@
+package sgea.sistema.sgea.model;
+
+import java.io.Serializable;
+import java.time.LocalDate;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.PrePersist;
+import jakarta.persistence.Table;
+import jakarta.validation.constraints.NotBlank;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
+
+@Entity
+@Table (name = "fornecedorsgea")
+@AllArgsConstructor
+@NoArgsConstructor
+public class Fornecedor implements Serializable{
+ 
+
+     private static final long serialVersionUID = 1L;
+
+     @Id
+     @GeneratedValue(strategy = GenerationType.IDENTITY)  
+     @Column(name = "id")
+     private Long id; 
+     
+     @NotBlank (message = "O campo CNPJ não pode estar vazio!")
+     @Column(name = "cnpj",  nullable = false)
+     private String cnpj;
+     
+     @NotBlank (message = "O campo nome não pode estar vazio!")
+     @Column(name = "nome", nullable = false)
+     private String nome;
+     
+     @NotBlank (message = "O campo data de nascimento nao pode estar vazio!")
+     @Column(name = "datanascimento", nullable = false)    
+     private String dataNascimento;
+
+     @NotBlank (message = "O campo telefone não pode estar vazio!")
+     @Column(name = "telefone", nullable = false)    
+     private String telefone;
+
+     @NotBlank (message = "O campo email não pode estar vazio!")
+     @Column(name = "email", nullable = false)    
+     private String email;
+
+     @NotBlank (message = "O campo CEP nao pode estar vazio!")
+     @Column(name = "cep", nullable = false)    
+     private String cep;
+     
+     @NotBlank (message = "O estado não pode estar vazio!")
+     @Column(name = "estado", nullable = false)    
+     private String estado;
+
+     @NotBlank (message = "O campo cidade não pode estar vazio!")
+     @Column(name = "cidade", nullable = false)    
+     private String cidade;
+
+     @NotBlank (message = "O campo endereço não pode estar vazio!")
+     @Column(name = "endereco", nullable = false)    
+     private String endereco;
+
+     @NotBlank (message = "O campo número não pode estar vazio!")
+     @Column(name = "numero", nullable = false)    
+     private String numero;
+
+     @NotBlank (message = "O campo complemento não pode estar vazio!")
+     @Column(name = "complemento", nullable = false)    
+     private String complemento;
+
+     @NotBlank (message = "O campo situação não pode estar vazio!")
+     @Column(name = "situacao", nullable = false)    
+     private String situacao;
+     
+     
+     @Column(name = "datacadastro")    
+     private LocalDate dataCadastro;
+
+     @PrePersist
+     public void capturarData() {
+         this.dataCadastro = LocalDate.now();
+     }
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getCnpj() {
+		return cnpj;
+	}
+
+	public void setCnpj(String cnpj) {
+		this.cnpj = cnpj;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getDataNascimento() {
+		return dataNascimento;
+	}
+
+	public void setDataNascimento(String dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
+
+	public String getTelefone() {
+		return telefone;
+	}
+
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getCep() {
+		return cep;
+	}
+
+	public void setCep(String cep) {
+		this.cep = cep;
+	}
+
+	public String getEstado() {
+		return estado;
+	}
+
+	public void setEstado(String estado) {
+		this.estado = estado;
+	}
+
+	public String getCidade() {
+		return cidade;
+	}
+
+	public void setCidade(String cidade) {
+		this.cidade = cidade;
+	}
+
+	public String getEndereco() {
+		return endereco;
+	}
+
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
+
+	public String getNumero() {
+		return numero;
+	}
+
+	public void setNumero(String numero) {
+		this.numero = numero;
+	}
+
+	public String getComplemento() {
+		return complemento;
+	}
+
+	public void setComplemento(String complemento) {
+		this.complemento = complemento;
+	}
+
+	public String getSituacao() {
+		return situacao;
+	}
+
+	public void setSituacao(String situacao) {
+		this.situacao = situacao;
+	}
+
+	public LocalDate getDataCadastro() {
+		return dataCadastro;
+	}
+
+	public void setDataCadastro(LocalDate dataCadastro) {
+		this.dataCadastro = dataCadastro;
+	} 
+     
+     
+     
+ 
+
+}
