@@ -1,0 +1,10 @@
+package sgea.sistema.sgea.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import sgea.sistema.sgea.model.Produto;
+
+@Repository
+public interface ProdutoRepository extends JpaRepository<Produto, Long>{
+
+}

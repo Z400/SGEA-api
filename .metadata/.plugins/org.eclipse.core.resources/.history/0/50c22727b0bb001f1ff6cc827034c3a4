@@ -1,0 +1,46 @@
+package sgea.sistema.sgea.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import sgea.sistema.sgea.model.Produto;
+import sgea.sistema.sgea.repository.ProdutoRepository;
+
+@Service
+public class ProdutoService {
+	
+	@Autowired
+	private ProdutoRepository produtoRepository;
+	
+	
+	public List<Produto> listarProdutos(){
+		return produtoRepository.findAll();
+	}
+
+	public Produto cadastrarProduto(Produto produto) {
+		return produtoRepository.save(produto);
+	}
+	
+	public Produto alterarProduto(Long id, Produto produto) {
+		
+		Optional<Produto> verifyExisting = produtoRepository.findById(id);
+		
+		if(verifyExisting.isPresent()) {
+		
+			Produto produtoExistente = verifyExisting.get();
+			
+			try {
+				
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
+			
+			
+		}
+		
+	}
+	
+}

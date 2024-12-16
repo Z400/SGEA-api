@@ -1,0 +1,5 @@
+package sgea.sistema.sgea.repository;
+
+public class ProdutoRepository {
+
+}

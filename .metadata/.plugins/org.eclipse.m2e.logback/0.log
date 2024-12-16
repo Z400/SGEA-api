@@ -1935,3 +1935,304 @@ Caused by: java.lang.Exception: File not found: C:\Users\mathe\OneDrive\햞ea de 
 2024-12-09 18:37:20,274 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@4f6fefbe{STOPPING}[12.0.6,sto=0]
 2024-12-09 18:37:20,276 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@38ee381{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
 2024-12-10 10:41:06,753 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-12-10 15:10:37,613 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-10 15:21:45,699 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 15:21:45,734 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 15:21:45,738 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 15:21:57,778 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 15:21:57,783 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 15:21:57,785 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 15:22:06,825 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 15:22:06,828 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 15:22:06,831 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 15:29:49,840 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 15:29:49,845 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 15:29:49,848 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 15:29:51,427 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 15:29:51,433 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 15:29:51,435 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 15:47:54,530 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 15:47:54,535 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 15:47:54,537 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 15:54:00,396 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 15:54:00,401 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 15:54:00,404 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 15:56:18,596 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.6; built: 2024-01-30T02:43:24.387Z; git: 78ab6e6ba163f89cdd97f2ae0283fbb5e371cfaf; jvm 17.0.10+7
+2024-12-10 15:56:18,692 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@5c1bcbd1{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@45cc4643{STARTED}}
+2024-12-10 15:56:18,693 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-12-10 15:56:18,718 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@79aa0962{HTTP/1.1, (http/1.1)}{127.0.0.1:49237}
+2024-12-10 15:56:18,732 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@7e46e0e7{STARTING}[12.0.6,sto=0] @2794055ms
+2024-12-10 15:58:58,138 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 15:58:58,143 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 15:58:58,147 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:00:15,864 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:00:15,867 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:00:15,869 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:01:56,180 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:01:56,184 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:01:56,186 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:03:49,070 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:03:49,075 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:03:49,078 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:03:50,629 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:03:50,633 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:03:50,636 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:04:01,365 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:04:01,395 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:04:01,398 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:04:23,532 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:04:23,558 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:04:23,562 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:04:57,924 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:04:57,928 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:04:57,930 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:20:36,918 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:20:36,926 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:20:36,929 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:23:41,573 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:23:41,578 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:23:41,580 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:26:26,315 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:26:26,323 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:26:26,326 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:27:22,974 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:27:22,978 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:27:22,980 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:35:17,529 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:35:17,547 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:35:17,554 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:35:48,000 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:35:48,011 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:35:48,012 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:36:20,498 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:36:20,507 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:36:20,509 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:37:23,249 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:37:23,252 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:37:23,254 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:37:24,972 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:37:24,976 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:37:24,977 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:37:46,078 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:37:46,081 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:37:46,083 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:38:03,936 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:38:03,939 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:38:03,941 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:38:21,994 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:38:21,997 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:38:21,999 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:49:09,268 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:49:09,286 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:49:09,288 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:49:11,743 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:49:11,752 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:49:11,755 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:53:03,874 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:53:03,893 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:53:03,896 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:53:13,822 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:53:13,826 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:53:13,829 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:53:26,445 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:53:26,449 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:53:26,451 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:53:36,404 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:53:36,409 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:53:36,411 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:54:54,097 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:54:54,101 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:54:54,104 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:55:19,406 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:55:19,409 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:55:19,410 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:55:56,817 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:55:56,820 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:55:56,825 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:56:01,162 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:56:01,172 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:56:01,174 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:57:49,453 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:57:49,458 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:57:49,460 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:58:44,783 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:58:44,787 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:58:44,789 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:58:47,377 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:58:47,380 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:58:47,382 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:59:10,932 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:59:10,935 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:59:10,937 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 16:59:15,304 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 16:59:15,308 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 16:59:15,309 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 17:04:38,203 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 17:04:38,207 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 17:04:38,210 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 17:12:28,797 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 17:12:28,801 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 17:12:28,803 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 17:15:17,596 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 17:15:17,600 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 17:15:17,602 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 17:17:22,384 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 17:17:22,387 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 17:17:22,389 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 17:18:20,538 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 17:18:20,542 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 17:18:20,544 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 17:18:36,497 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 17:18:36,501 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 17:18:36,503 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 17:20:47,321 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 17:20:47,325 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 17:20:47,326 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-10 17:26:01,126 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@7e46e0e7{STOPPING}[12.0.6,sto=0]
+2024-12-10 17:26:01,129 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@79aa0962{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-12-12 09:57:31,501 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-12-12 11:27:04,263 [Worker-52: Launching SgeaApplication (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-12 11:27:04,478 [Worker-52: Launching SgeaApplication (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-12 11:27:04,483 [Worker-52: Launching SgeaApplication (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-12 11:28:23,974 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-12 11:28:23,978 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-12 11:28:23,981 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-12 11:51:34,220 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.6; built: 2024-01-30T02:43:24.387Z; git: 78ab6e6ba163f89cdd97f2ae0283fbb5e371cfaf; jvm 17.0.10+7
+2024-12-12 11:51:34,386 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@33c61246{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@3020ff7e{STARTED}}
+2024-12-12 11:51:34,387 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-12-12 11:51:34,449 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@2f2fafd1{HTTP/1.1, (http/1.1)}{127.0.0.1:63014}
+2024-12-12 11:51:34,671 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@22bdb96d{STARTING}[12.0.6,sto=0] @7358402ms
+2024-12-12 11:52:49,092 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-12 11:52:49,133 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-12 11:52:49,136 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-12 11:53:22,337 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-12 11:53:22,354 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-12 11:53:22,357 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-12 15:04:21,119 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-12 15:04:37,262 [Worker-9: Launching SgeaApplication (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-12 15:04:37,308 [Worker-9: Launching SgeaApplication (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-12 15:04:37,314 [Worker-9: Launching SgeaApplication (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-12 17:25:43,422 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-12 17:25:43,493 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-12 17:25:43,496 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 10:27:12,366 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-13 13:32:24,669 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 13:32:24,718 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 13:32:24,723 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 13:41:28,093 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.6; built: 2024-01-30T02:43:24.387Z; git: 78ab6e6ba163f89cdd97f2ae0283fbb5e371cfaf; jvm 17.0.10+7
+2024-12-13 13:41:28,221 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@2bd7f4d0{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@7b90a588{STARTED}}
+2024-12-13 13:41:28,222 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-12-13 13:41:28,257 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@784655ac{HTTP/1.1, (http/1.1)}{127.0.0.1:56504}
+2024-12-13 13:41:28,357 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@3d9be6bb{STARTING}[12.0.6,sto=0] @11681464ms
+2024-12-13 14:01:43,279 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 14:01:43,284 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 14:01:43,287 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 14:02:11,619 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 14:02:11,622 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 14:02:11,625 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 14:02:14,470 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 14:02:14,473 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 14:02:14,476 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 14:03:25,331 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 14:03:25,336 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 14:03:25,339 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 14:03:58,268 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 14:03:58,271 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 14:03:58,274 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 14:04:26,802 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 14:04:26,805 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 14:04:26,807 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 14:04:47,028 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 14:04:47,031 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 14:04:47,035 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 14:04:49,910 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 14:04:49,913 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 14:04:49,915 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 14:04:56,025 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 14:04:56,028 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 14:04:56,031 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 14:04:57,833 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 14:04:57,837 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 14:04:57,839 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 14:05:13,732 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 14:05:13,736 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 14:05:13,739 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 14:06:01,065 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 14:06:01,070 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 14:06:01,074 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 14:06:22,288 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 14:06:22,292 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 14:06:22,294 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 14:06:38,101 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 14:06:38,105 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 14:06:38,107 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 14:20:08,668 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 14:20:08,672 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 14:20:08,674 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 14:23:50,186 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 14:23:50,189 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 14:23:50,190 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 14:25:59,696 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 14:25:59,700 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 14:25:59,701 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 14:26:33,838 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 14:26:33,841 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 14:26:33,843 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 14:38:24,303 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 14:38:24,306 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 14:38:24,308 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 14:38:26,715 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 14:38:26,718 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 14:38:26,720 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 14:50:55,707 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 14:50:55,711 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 14:50:55,713 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 14:51:07,097 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 14:51:07,100 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 14:51:07,102 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 14:51:28,093 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 14:51:28,096 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 14:51:28,098 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 14:56:38,101 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 14:56:38,105 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 14:56:38,107 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 15:15:33,880 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@3d9be6bb{STOPPING}[12.0.6,sto=0]
+2024-12-13 15:15:33,883 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@784655ac{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-12-13 17:15:17,071 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-13 17:30:43,135 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 17:30:43,197 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 17:30:43,200 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 17:35:40,761 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.6; built: 2024-01-30T02:43:24.387Z; git: 78ab6e6ba163f89cdd97f2ae0283fbb5e371cfaf; jvm 17.0.10+7
+2024-12-13 17:35:40,868 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@60d7e3fd{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@e0cb7af{STARTED}}
+2024-12-13 17:35:40,868 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-12-13 17:35:40,894 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@245b8596{HTTP/1.1, (http/1.1)}{127.0.0.1:54600}
+2024-12-13 17:35:40,919 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@35d8a023{STARTING}[12.0.6,sto=0] @1276808ms
+2024-12-13 17:39:02,917 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 17:39:02,926 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 17:39:02,929 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 17:39:12,760 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 17:39:12,789 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 17:39:12,791 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 17:40:20,771 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 17:40:20,774 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 17:40:20,776 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 17:41:37,190 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 17:41:37,203 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 17:41:37,205 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 17:41:47,245 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 17:41:47,254 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 17:41:47,265 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 17:42:56,347 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 17:42:56,350 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 17:42:56,352 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 17:42:59,305 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 17:42:59,308 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 17:42:59,313 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 17:43:02,764 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 17:43:02,767 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 17:43:02,770 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 17:45:14,841 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-13 17:45:14,845 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-13 17:45:14,847 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mathe\OneDrive\햞ea de Trabalho\sgea\src\test\resources
+2024-12-13 18:57:51,874 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@35d8a023{STOPPING}[12.0.6,sto=0]
+2024-12-13 18:57:51,882 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@245b8596{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
