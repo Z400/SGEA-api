@@ -1,0 +1,64 @@
+package sgea.sistema.sgea.service;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import jakarta.transaction.Transactional;
+import sgea.sistema.sgea.model.Fatura;
+import sgea.sistema.sgea.repository.FaturaRepository;
+
+@Service
+public class FaturaService {
+
+		@Autowired
+		private FaturaRepository faturaRepository;
+	
+	public Fatura cadastrarFatura(Fatura fatura) {
+		return faturaRepository.save(fatura);
+	}
+	
+	public void listarFatura() {
+		faturaRepository.findAll();
+	}
+	
+	@Transactional
+	public void deletarFatura(String codigo) {
+		
+		Optional<Fatura> existingFatura = faturaRepository.findBycodigoFatura(codigo);
+		
+		if(existingFatura.isPresent()) {
+			
+			faturaRepository.deleteBycodigoFatura(codigo);
+			
+		} else {
+			throw new IllegalArgumentException("Fatura não encontrada!");
+		}
+		 
+	}
+	
+	public Fatura atualizarFatura(String codigo, Fatura dadosAtualizados) {
+		
+		Optional<Fatura> existingFatura = faturaRepository.findBycodigoFatura(codigo);
+		
+		if(existingFatura.isPresent()) {
+			existingFatura.get();
+			
+			Fatura faturaExistente = existingFatura.get();
+			
+			faturaExistente.setDataVencimento(dadosAtualizados.getDataVencimento());
+			faturaExistente.setDiasAlerta(dadosAtualizados.getDiasAlerta());
+			faturaExistente.setEmpresaDevedora(dadosAtualizados.getEmpresaDevedora());
+			faturaExistente.setValorFatura(dadosAtualizados.getValorFatura());
+			
+			faturaRepository.save(faturaExistente);
+			
+		} else {
+			throw new IllegalArgumentException("Erro ao atualizar essa fatura!");
+		}
+		
+		
+	}
+	
+}

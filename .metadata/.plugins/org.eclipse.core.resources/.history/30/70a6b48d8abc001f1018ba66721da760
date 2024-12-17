@@ -1,0 +1,13 @@
+package sgea.sistema.sgea.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import sgea.sistema.sgea.model.Fatura;
+
+@Repository
+public interface FaturaRepository extends JpaRepository<String, Fatura>{
+
+	
+	
+}

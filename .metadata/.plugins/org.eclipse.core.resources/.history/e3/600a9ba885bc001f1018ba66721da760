@@ -1,0 +1,10 @@
+package sgea.sistema.sgea.model;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "faturasgea")
+public class Fatura {
+
+}
