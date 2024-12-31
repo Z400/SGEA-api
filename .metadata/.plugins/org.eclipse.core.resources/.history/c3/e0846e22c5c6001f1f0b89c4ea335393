@@ -1,0 +1,46 @@
+package sgea.sistema.sgea.model;
+
+import java.io.Serializable;
+import java.time.LocalDate;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+ 
+@Entity
+@Table(name = "vendasFinalizasSgea")
+public class VendasFinalizadas implements Serializable{
+ 
+	private static final long serialVersionUID = 1L;
+
+	 @Column(name = "cliente")
+	 private String cliente;
+	 
+	 @Column(name = "produto")
+	 private String produto;
+	 
+	 @Column(name = "quantidade")
+	 private Integer quantidade;
+	 
+	 @Column(name = "valorrecebido")
+	 private Double valorRecebido;
+	 
+	 @Column(name = "formapagamento")
+	 private String formaPagamento;
+	 
+	 @Column(name = "datavenda")
+	 private LocalDate dataVenda;
+	 
+	 public VendasFinalizadas() {
+		 
+	 }
+	 
+	 @PrePersist
+	 public void iniciarVendaFinalizada() {
+		 this.dataVenda = LocalDate.now();
+	 }
+	 
+	 
+	
+	
+}

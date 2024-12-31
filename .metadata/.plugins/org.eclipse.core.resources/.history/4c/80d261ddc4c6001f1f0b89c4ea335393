@@ -1,0 +1,12 @@
+package sgea.sistema.sgea.model;
+
+import java.io.Serializable;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "vendasFinalizasSgea")
+public class VendasFinalizadas implements Serializable{
+
+}

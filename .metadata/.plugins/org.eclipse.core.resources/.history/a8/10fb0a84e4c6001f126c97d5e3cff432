@@ -1,0 +1,143 @@
+package sgea.sistema.sgea.model;
+
+import java.io.Serializable;
+import java.time.LocalDate;
+import java.util.Random;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.PrePersist;
+import jakarta.persistence.Table;
+ 
+@Entity
+@Table(name = "vendasFinalizasSgea")
+public class VendasFinalizadas implements Serializable{
+ 
+	private static final long serialVersionUID = 1L;
+	 
+	 @Id
+	 @Column(name = "codigo")
+	 private String codigo;
+	 
+	 @Column(name = "cliente")
+	 private String cliente;
+	 
+	 @Column(name = "produto")
+	 private String produto;
+	 
+	 @Column(name = "quantidade")
+	 private Integer quantidade;
+	 
+	 @Column(name = "valorrecebido")
+	 private Double valorRecebido;
+	 
+	 @Column(name = "formapagamento")
+	 private String formaPagamento;
+	 
+	 @Column(name = "datavenda")
+	 private LocalDate dataVenda;
+	 
+	 @PrePersist
+	 public void iniciarMetodos() {
+		 this.capturarData();
+		 this.capturarSequencia();
+	 }
+	 
+	 public VendasFinalizadas() {
+		 
+	 }
+	 
+	 public VendasFinalizadas(String codigo, String cliente, String produto, Integer quantidade, Double valorRecebido,
+		String formaPagamento, LocalDate dataVenda) {
+		super();
+		this.codigo = codigo;
+		this.cliente = cliente;
+		this.produto = produto;
+		this.quantidade = quantidade;
+		this.valorRecebido = valorRecebido;
+		this.formaPagamento = formaPagamento;
+		this.dataVenda = dataVenda;
+	}
+	 
+	 
+	 
+		public String getCodigo() {
+			return codigo;
+		}
+
+		public void setCodigo(String codigo) {
+			this.codigo = codigo;
+		} 
+	 
+	public String getCliente() {
+		return cliente;
+	}
+
+	public void setCliente(String cliente) {
+		this.cliente = cliente;
+	}
+
+	public String getProduto() {
+		return produto;
+	}
+
+	public void setProduto(String produto) {
+		this.produto = produto;
+	}
+
+	public Integer getQuantidade() {
+		return quantidade;
+	}
+
+	public void setQuantidade(Integer quantidade) {
+		this.quantidade = quantidade;
+	}
+
+	public Double getValorRecebido() {
+		return valorRecebido;
+	}
+
+	public void setValorRecebido(Double valorRecebido) {
+		this.valorRecebido = valorRecebido;
+	}
+
+	public String getFormaPagamento() {
+		return formaPagamento;
+	}
+
+	public void setFormaPagamento(String formaPagamento) {
+		this.formaPagamento = formaPagamento;
+	}
+
+	public LocalDate getDataVenda() {
+		return dataVenda;
+	}
+
+	public void setDataVenda(LocalDate dataVenda) {
+		this.dataVenda = dataVenda;
+	}
+
+	 
+	public void capturarData() {
+		 this.dataVenda = LocalDate.now();
+	 }
+	
+	public void capturarSequencia() {
+		this.codigo = gerarSequencia();
+	}
+	
+	public String gerarSequencia() {
+		
+		Random random = new Random();
+		StringBuilder sb = new StringBuilder();
+		
+		while(sb.length() < 13) {
+			sb.append(random.nextInt(13));
+		}
+		return sb.toString();
+
+		
+	}
+	 
+}

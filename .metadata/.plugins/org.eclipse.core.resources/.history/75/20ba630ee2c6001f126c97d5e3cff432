@@ -1,0 +1,5 @@
+package sgea.sistema.sgea.service;
+
+public class VendasFinalizadasService {
+
+}

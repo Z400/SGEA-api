@@ -1,0 +1,33 @@
+package sgea.sistema.sgea.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import sgea.sistema.sgea.model.PreVenda;
+import sgea.sistema.sgea.repository.PreVendaRepository;
+
+@Service
+public class PreVendaService {
+	
+	@Autowired
+	private PreVendaRepository preVendaRepository;
+	
+	public PreVenda cadastrar (PreVenda preVenda) {
+		return preVendaRepository.save(preVenda);
+	}
+	
+	public List<PreVenda> listar(){
+		return preVendaRepository.findAll();
+	}
+	
+	public void deletar(Long codigo) {
+		try {
+			preVendaRepository.deleteById(codigo);
+		} catch (Exception e) {
+			throw new IllegalArgumentException("Venda não disponível para cancelamento!")
+		}
+	}
+
+}

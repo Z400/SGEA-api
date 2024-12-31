@@ -1,0 +1,7 @@
+package sgea.sistema.sgea.model;
+
+import java.io.Serializable;
+
+public class VendasFinalizadas implements Serializable{
+
+}
