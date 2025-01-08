@@ -1,0 +1,115 @@
+package sgea.sistema.sgea.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import jakarta.transaction.Transactional;
+import sgea.sistema.sgea.model.Colaborador;
+import sgea.sistema.sgea.repository.ColaboradorRepository;
+
+ 
+@Service
+public class ColaboradorService {
+	
+	 
+	
+	 
+	@Autowired
+	private ColaboradorRepository colaboradorRepository;
+	
+	public Colaborador cadastrarColaborador (Colaborador colaborador) {
+		return colaboradorRepository.save(colaborador);
+	}
+	
+	
+	public List<Colaborador> listarColaboradores(){
+		return colaboradorRepository.findAll();
+	}
+	
+	 
+	public Colaborador atualizarColaborador(String cpf, Colaborador dadosAtualizados) {
+		
+		Optional<Colaborador> verifyExisting = colaboradorRepository.findByCpf(cpf);
+		
+		 if(verifyExisting.isPresent()) {
+			  
+				 Colaborador colaboradorPresente  = verifyExisting.get();
+				 
+				 colaboradorPresente.setNome(dadosAtualizados.getNome());
+				 colaboradorPresente.setCep(dadosAtualizados.getCep());
+				 colaboradorPresente.setCidade(dadosAtualizados.getCidade());
+				 colaboradorPresente.setComplemento(dadosAtualizados.getComplemento());
+				 colaboradorPresente.setCpf(dadosAtualizados.getCpf());
+				 colaboradorPresente.setDatanascimento(dadosAtualizados.getDatanascimento());
+				 colaboradorPresente.setEmail(dadosAtualizados.getEmail());
+				 colaboradorPresente.setEndereco(dadosAtualizados.getEndereco());
+				 colaboradorPresente.setEstado(dadosAtualizados.getEstado());
+				 colaboradorPresente.setNumero(dadosAtualizados.getNumero());
+				 colaboradorPresente.setSenha(dadosAtualizados.getSenha());
+				 colaboradorPresente.setSituacao(dadosAtualizados.getSituacao());
+				 colaboradorPresente.setTelefone(dadosAtualizados.getTelefone());
+				 colaboradorPresente.setUsuario(dadosAtualizados.getUsuario());
+				 
+				 return colaboradorRepository.save(colaboradorPresente);
+							
+			} else {
+				throw new IllegalArgumentException("Erro durante a atualização deste colaborador!");
+		 }
+		
+		
+	}
+	
+	
+	public Colaborador atualizarColaboradorLogado(String cpf, Colaborador dadosAtualizados) {
+		
+		Optional<Colaborador> verifyExisting = colaboradorRepository.findByCpf(cpf);
+		
+		 if(verifyExisting.isPresent()) {
+			  
+				 Colaborador colaboradorPresente  = verifyExisting.get();
+				 
+				 colaboradorPresente.setNome(dadosAtualizados.getNome());
+				
+				 colaboradorPresente.setDatanascimento(dadosAtualizados.getDatanascimento());
+				 
+				 colaboradorPresente.setEmail(dadosAtualizados.getEmail());
+				 
+				 colaboradorPresente.setSenha(dadosAtualizados.getSenha());
+				
+				 colaboradorPresente.setTelefone(dadosAtualizados.getTelefone());
+				 
+				 return colaboradorRepository.save(colaboradorPresente);
+							
+			} else {
+				throw new IllegalArgumentException("Erro durante a atualização deste colaborador!");
+		 }
+		
+		
+	}
+
+		
+	public List<Object[]> findCredentials(String nome){
+		return colaboradorRepository.findCredentials(nome);
+	}
+	
+	@Transactional
+	public void deletarColaborador(String cpf) {
+		
+		Optional<Colaborador> verifyExisting = colaboradorRepository.findByCpf(cpf);
+		
+		if(verifyExisting.isPresent()) {
+			
+			colaboradorRepository.deleteByCpf(cpf);
+			
+		} else {
+			
+			throw new RuntimeException("Colaborador " + cpf + " não encontrado!");
+		}
+		
+	}
+	
+	 
+}

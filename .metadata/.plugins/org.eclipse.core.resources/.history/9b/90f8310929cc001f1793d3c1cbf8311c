@@ -1,0 +1,8 @@
+package sgea.sistema.sgea.model;
+
+import java.io.Serializable;
+
+public class AtualizarColaboradorLogado implements Serializable{
+	
+	
+}

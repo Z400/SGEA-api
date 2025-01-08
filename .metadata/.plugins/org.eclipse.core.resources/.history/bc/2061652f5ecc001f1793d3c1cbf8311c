@@ -1,0 +1,23 @@
+package sgea.sistema.sgea.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
+
+import sgea.sistema.sgea.model.VendasFinalizadas;
+
+@Repository
+public interface VendasFinalizadasRepository extends JpaRepository<VendasFinalizadas,Long >{
+
+	
+	 @Query("SELECT v FROM Venda v WHERE EXTRACT(DAY FROM v.dataVenda) = :dia " +
+	           "AND EXTRACT(MONTH FROM v.dataVenda) = :mes " +
+	           "AND EXTRACT(YEAR FROM v.dataVenda) = :ano")
+	    List<VendasFinalizadas> findByData(@Param("dia") int dia, 
+	                           @Param("mes") int mes, 
+	                           @Param("ano") int ano);
+	
+}

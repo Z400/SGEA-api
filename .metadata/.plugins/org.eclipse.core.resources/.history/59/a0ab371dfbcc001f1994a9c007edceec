@@ -1,0 +1,30 @@
+package sgea.sistema.sgea.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import sgea.sistema.sgea.model.VendasFinalizadas;
+import sgea.sistema.sgea.repository.VendasFinalizadasRepository;
+
+@Service
+public class VendasFinalizadasService {
+
+	@Autowired
+	private VendasFinalizadasRepository vendasFinalizadasRepository;
+	
+	public List<VendasFinalizadas> listarVendas(){
+		return vendasFinalizadasRepository.findAll();
+	}
+	
+	public VendasFinalizadas cadastrar(VendasFinalizadas vendasFinalizadas) {
+		return vendasFinalizadasRepository.save(vendasFinalizadas);
+	}
+	
+
+    public List<VendasFinalizadas> buscarVendasPorData(int dia, int mes, int ano) {
+        return vendasFinalizadasRepository.findByData(dia, mes, ano);
+    }
+	
+}

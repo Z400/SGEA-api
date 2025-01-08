@@ -1,6 +1,0 @@
-package sgea.sistema.sgea.service;
-
-@Service
-public class VendasFinalizadasService {
-
-}

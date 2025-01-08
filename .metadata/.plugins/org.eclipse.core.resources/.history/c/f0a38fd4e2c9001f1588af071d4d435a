@@ -1,0 +1,27 @@
+package sgea.sistema.sgea.repository;
+
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
+
+import jakarta.transaction.Transactional;
+import sgea.sistema.sgea.model.Colaborador;
+
+@Repository 
+public interface ColaboradorRepository extends JpaRepository<Colaborador, String>{
+
+	
+	Optional<Colaborador> findByCpf(String cpf);
+	
+	void deleteByCpf (String cpf);
+	
+	@Transactional
+	@Query("SELECT nome, datanascimento, telefone, email, senha from colaboradorSgea WHERE nome ILIKE :nome", nativeQuery = true)
+	List<Object[]> findCredentials(@Param("nome") String nome);
+	
+	
+	
+}
